@@ -39,7 +39,7 @@ Hovers <br>
 
 ### Links
 
-- Site: [Clique aqui para acessar o site](https://matheuzeba.github.io/Huddle-landing-page-with-a-single-introductory-section/)
+- Site: [Clique aqui para acessar o site](https://matheuzeba.github.io/Single-price-grid-component/)
 
 ## Meu processo
 
