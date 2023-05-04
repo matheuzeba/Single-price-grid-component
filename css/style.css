@@ -88,14 +88,16 @@ h2 {
 }
 
 /* .why */
+.why {
+    background: hsl(179deg 62% 43% / 80%);
+}
 
-
-li {
+.why ul li {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
     color: var(--Light-Gray);
 }
 
-li:last-child {
+.why ul li:last-child {
     margin: 0;
 }
