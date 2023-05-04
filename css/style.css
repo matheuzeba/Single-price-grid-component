@@ -1,3 +1,7 @@
+body {
+    background: var(--Light-Gray);
+}
+
 .page {
     display: grid;
     align-items: center;
@@ -6,9 +10,19 @@
 
     max-width: 30rem;
     margin: auto;
+    
 }
 
 .item {
     padding: 2rem;
-    background: gray;
+    background-color: gray;
+}
+
+.join {
+    background: var(--White);
+}
+
+.join h1 {
+    font-size: 2rem;
+    color: var(--Cyan);
 }
