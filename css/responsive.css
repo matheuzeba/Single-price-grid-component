@@ -1,6 +1,6 @@
 @media (min-width: 48em) {
     .page {
-        max-width: 54rem;
+        max-width: 65rem;
     }
     .component {
         display: grid;
@@ -8,5 +8,9 @@
     }
     .span-2 {
         grid-column: span 2;
+    }
+
+    .join p:last-child {
+        max-width: 60ch;
     }
 }
