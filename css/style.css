@@ -18,7 +18,7 @@ body {
 /* .item */
 .item {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 2.5rem;
     background-color: gray;
 }
@@ -41,4 +41,9 @@ body {
 .join p:last-child {
     font-size: 1.3rem;
     color: var(--Grayish-Blue);
+}
+
+/* .sub */
+.sub {
+    background: var(--Cyan);
 }
