@@ -47,3 +47,26 @@ body {
 .sub {
     background: var(--Cyan);
 }
+
+.sub h2 {
+    color: var(--White);
+}
+
+.sub p {
+    color: var(--White);
+}
+
+.sub p:first-of-type {
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    font-weight: 800;
+    
+}
+
+.sub p span {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--Light-Gray);
+}
