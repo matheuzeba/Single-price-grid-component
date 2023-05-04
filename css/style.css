@@ -1,7 +1,9 @@
+/* body */
 body {
     background: var(--Light-Gray);
 }
 
+/* .page */
 .page {
     display: grid;
     align-items: center;
@@ -13,11 +15,15 @@ body {
     
 }
 
+/* .item */
 .item {
-    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+    padding: 2.5rem;
     background-color: gray;
 }
 
+/* .JOIN */
 .join {
     background: var(--White);
 }
@@ -25,4 +31,14 @@ body {
 .join h1 {
     font-size: 2rem;
     color: var(--Cyan);
+}
+
+.join span {
+    color: var(--Bright-Yellow);
+    font-weight: 700;
+}
+
+.join p:last-child {
+    font-size: 1.3rem;
+    color: var(--Grayish-Blue);
 }
