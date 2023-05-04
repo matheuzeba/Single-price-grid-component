@@ -18,6 +18,7 @@ body {
 /* component */
 .component {
     padding: 2rem 1rem;
+    animation: leftRight 0.5s backwards;
 }
 
 /* .item */
@@ -105,4 +106,17 @@ h2 {
 
 .why ul li:last-child {
     margin: 0;
+}
+
+/* ANIMAÇÕES :D */
+@keyframes leftRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
